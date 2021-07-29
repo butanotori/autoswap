@@ -1,0 +1,30 @@
+{
+  "name": "autoswapbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "approve": "node swap-bot.js approve",
+    "autoswap": "node swap-bot.js autoswap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/address": "^5.4.0",
+    "@ethersproject/contracts": "^5.4.0",
+    "@ethersproject/providers": "^5.4.1",
+    "@ethersproject/solidity": "^5.4.0",
+    "@pancakeswap-libs/sdk": "^1.0.1",
+    "@pancakeswap/sdk": "^2.3.2",
+    "@uniswap/sdk": "^3.0.3",
+    "dotenv": "^10.0.0",
+    "fortmatic": "^2.2.1",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^2.0.0",
+    "node-telegram-bot-api": "^0.53.0",
+    "telegraf": "^4.4.0",
+    "web3": "^1.4.0"
+  }
+}
